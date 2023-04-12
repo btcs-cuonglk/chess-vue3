@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
-import TodoList from './views/TodoList/index.vue'
+import TodoList from "./views/TodoList/index.vue";
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import TodoList from './views/TodoList/index.vue'
     <h1 class="text-center font-bold text-3xl my-5 text-white">Chess</h1>
   </header>
 
-  <TodoList class="text-red-700"></TodoList>
+  <TodoList></TodoList>
   <!-- <RouterView /> -->
 </template>
 
